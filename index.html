@@ -9,25 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
+    <title>Реклама в Сургуте - Пономаренко Ирина Викторовна </title>
+  	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+  	<link rel="stylesheet" type="text/css" href="fancybox/helpers/jquery.fancybox-thumbs.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -38,25 +32,28 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Меню</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="#" id="menu_0">Начало</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#services" id="menu_1">О нас</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#feedback" id="menu_2">Отзывы</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+                        <a href="#price" id="menu_4">Цены</a>
+                    </li>                    
+                    <li>
+                        <a href="#contact" id="menu_3">Контакты</a>
+                    </li>                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,17 +63,17 @@
 
 
     <!-- Header -->
-    <a name="about"></a>
+    <a name="about" id='about'></a>
     <div class="intro-header">
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>Реклама в Сургуте на ТВ каналах "Первый", "Россия" <br>и на радио <br>"Шансон"</h1>
+                        <h3>Пономаренко Ирина Викторовна</h3>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                        <!-- <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -86,7 +83,7 @@
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -99,7 +96,28 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<a  name="services" id="services"></a>
+  <div class="content-section-b">
+
+      <div class="container">
+
+          <div class="row">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2 class="section-heading">Потенциальная аудитория</h2>
+                  <p class="lead">ядро нашей аудитории – активные, трудоспособные люди; студенты, руководители, служащие и специалисты.</p>
+              </div>
+              <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="img/man.jpg" alt="">
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+  </div>
+  <!-- /.content-section-b -->
     <div class="content-section-a">
 
         <div class="container">
@@ -107,11 +125,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Основное направление деятельности</h2>
+                    <p class="lead">производство роликов и прокат на ведущих телеканалах города Сургута "Первый" и "Россия", радио "Шансон".</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/go.jpg" alt="">
                 </div>
             </div>
 
@@ -129,11 +147,11 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Территория вещания</h2>
+                    <p class="lead">города Сургут, Нефтеюганск, Сургутсский  р-н, Пыть-Ях, Федоровский, Сайгатино, Высокий Мыс, Тундрина, Чеускино, Каркатеевский, Юганская Обь, Усть-Юган, Юган, Ульт-Югун. Аудитория до 500 000 чел.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="img/area.jpg" alt="">
                 </div>
             </div>
 
@@ -151,11 +169,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Основное в работе</h2>
+                    <p class="lead">высокое качество, большой опыт работы.<br>Современные технологии производства телевизионной продукции, серьезна техническая и творческая база.<br>Партнерами и заказчиками ТВ Первый, Россия являются  крупные торговые сети, автосалоны, предприятия малого и среднего бизнеса. </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="img/work.jpg" alt="">
                 </div>
             </div>
 
@@ -164,71 +182,185 @@
 
     </div>
     <!-- /.content-section-a -->
+<hr class="section-heading-spacer_2">
+<a name="feedback" id="feedback"></a>
 
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
+    <div class="container" id="photo">
+      <div class="row">
+      <h2 class="section-heading">Отзывы о работе с нами:</h2>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_1.jpg">
+            <img class="img-responsive feed" src="img/feed_1.jpg" width="160" height="107">
+          </a>
         </div>
-        <!-- /.container -->
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_2.jpg">
+            <img class="img-responsive" src="img/feed_2.jpg" width="160" height="107">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_3.jpg">
+            <img class="img-responsive" src="img/feed_3.jpg" width="160" height="107">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_4.jpg">
+            <img class="img-responsive" src="img/feed_4.jpg" width="160" height="107">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_5.jpg">
+            <img class="img-responsive" src="img/feed_5.jpg" width="160" height="107">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_6.jpg">
+            <img class="img-responsive" src="img/feed_6.jpg" width="160" height="107">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_7.jpg">
+            <img class="img-responsive" src="img/feed_7.jpg" width="160" height="107">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+          <a class="fancybox" data-fancybox-group="group" href="img/feed_8.jpg">
+            <img class="img-responsive" src="img/feed_8.jpg" width="160" height="107">
+          </a>
+        </div>
+      </div>
 
     </div>
-    <!-- /.banner -->
+    <!-- /.container -->
 
+<!--feedback end -->
+<hr class="section-heading-spacer_2">
+
+  <a name="price" id="price"></a>
+  <div class="container">
+  <h2 class="section-heading">Цены на изготовление и размещение рекламы:</h2>
+    <div class="row">
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <img data-src="holder.js/300x200" alt="..." src="download/price_tv.jpg">
+          <div class="caption">
+            <h3>Стоимость рекламы на ТВ</h3>
+            <p>ТВ канал "Первый" и "Россия"</p>
+            <p><a href="download/price_tv.doc" class="btn btn-primary fancybox" role="button">Скачать в формате word</a>&nbsp;<a href="download/price_tv.pdf" class="btn btn-primary" role="button">Скачать в формате pdf</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <img data-src="holder.js/300x200" alt="..." src="download/price_radio.jpg">
+          <div class="caption">
+            <h3>Стоимость рекламы на радио</h3>
+            <p>Радио "Шансон"</p>
+            <p><a href="download/price_radio.doc" class="btn btn-primary" role="button">Скачать в формате word</a>&nbsp;<a href="download/price_radio.pdf" class="btn btn-primary" role="button">Скачать в формате pdf</a></p>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+<!--price end -->  
+	<a  name="contact" id="contact"></a>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Связатся с нами очень просто!</h2>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"> <span class="network-name">Одноклассники</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><span class="network-name">Мой мир</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Вконтакте</span></a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.banner -->
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+            <h2>Наш адрес:</h2>
+            <address>
+            <strong>Рекламное агенство "Энеркомсервис"</strong><br>
+            628400,ХМАО,<br>
+            Тюменская область,<br>
+            г. Сургут,<br> 
+            ул. Энергетиков, 16<br>
+            8(9044) 71-06-74<br>
+            8(3462) 49-06-74<br>
+            e-mail:ponomarenko75@mail.ru
+            </address>
+          </div>
+      </div>
+    </div>
+        <div id="map" class="container">
+        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=f50y_G_75LVo7c0zHIxm_QbadHGvDIOd&width=1170&height=650"></script>        
+        </div>
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small"><a href="http://www.tvsurgut.ru">Реклама в Сургуте - Пономаренко Ирина Викторовна. 2015 год.</a></p>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.fancybox').fancybox({
+      'autoScale' : false,
+      'transitionIn' : 'none',
+      'transitionOut' : 'none',
+      'helpers'     : {
+            'overlay' : {
+                'locked': false
+            }
+        }      
+    });
+    //Плавная прокрутка
+     $('#menu_0').click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({ scrollTop: $('#about').offset().top }, 1000);
+     });    
+     $('#menu_1').click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({ scrollTop: $('#services').offset().top }, 1000);
+     });
+     $('#menu_2').click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({ scrollTop: $('#feedback').offset().top }, 1000);
+     });
+     $('#menu_3').click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({ scrollTop: $('#contact').offset().top }, 1000);
+     });
+     $('#menu_4').click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({ scrollTop: $('#price').offset().top }, 1000);
+     });                   
+  });
+</script>
 </body>
-
 </html>
