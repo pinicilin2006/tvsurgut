@@ -228,7 +228,7 @@ p.copyright {
     }
 
 /* СКРЫТЫЙ БЛОК */
-/*#hidden_panel {*/
+#hidden_panel {
     position: fixed; /* положение */
     top: 150px; /* отступ сверху */
     left: -250px; /* отступ слева */
@@ -247,12 +247,12 @@ p.copyright {
 /*    -webkit-border-radius: 0 5px 5px 0;  закругление границ для всех браузеров
     -moz-border-radius: 0 5px 5px 0;
     border-radius: 0 5px 5px 0;*/
-    /*}*/
+    }
 
-/*#panel:hover {*/
-    left: 250px; /* при наведении выдвигается на скрытые 200px + 20px отступы
-/*}*/
-/*#panel:hover #hidden_panel {*/
+#panel:hover {
+    left: 250px; /* при наведении выдвигается на скрытые 200px + 20px отступы*/
+}
+#panel:hover #hidden_panel {
     left: 0; /* отступ слева */
-/*}*/
+}
 /*--------------------------------------------------------------------------------------------*/
